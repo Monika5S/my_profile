@@ -43,11 +43,14 @@ h1,h2,h3{
 {
     width:100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    column-gap: 2%;
+    
 }
 
 .items{
+    background-color: black;
     width: 100%;
     padding: 0.5%;
     font-size: 2.5vw;
@@ -67,4 +70,10 @@ h1,h2,h3{
 .items:hover{
     text-shadow:  0.1em -0.1em 0.1em rgb(129, 173, 255);
     box-shadow: 5px 5px rgb(255, 255, 255);
+}
+
+footer{
+    font-family: 'Indie Flower', sans-serif;
+    justify-content: space-around;
+    align-items: center;
 }
