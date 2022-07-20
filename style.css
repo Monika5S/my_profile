@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis&family=Edu+NSW+ACT+Foundation&family=Indie+Flower&family=Nunito:wght@700&display=swap');
 a{
     text-decoration: none;
-    color:ghostwhite
+    color:ghostwhite;
+     
+
 }
 
 div{
@@ -112,7 +114,12 @@ img:hover{
 }
 
 footer{
-    font-family: 'Indie Flower';
     justify-content: space-around;
     align-items: center;
+    font-size: small;
+    text-align: center;
+}
+
+footer p, footer a{
+    color: rgba(207, 180, 255, 0.845);
 }
