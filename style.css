@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Edu+NSW+ACT+Foundation&family=Indie+Flower&family=Nunito:wght@700&display=swap');
 a{
     text-decoration: none;
     color:ghostwhite
@@ -51,6 +52,7 @@ h1:hover{
     column-gap: 2%;
 }
 
+/* boxes with solid color shadows */
 .border_with_shadow{
     background-color: black;
     border-style: solid;
@@ -64,30 +66,32 @@ h1:hover{
     box-shadow: 0.3em 0.3em rgb(197, 117, 255);
 }
 
+/* navbar items styling and solid shadows */
 #nav{
     font-size: 2vw;
     font-family: 'Indie Flower';
 }
 
-/* navbar items hover effect */
 .border_with_shadow:hover{
     text-shadow:  0.1em -0.1em 0.1em rgb(129, 173, 255);
     box-shadow: 0.2em 0.2em rgb(255, 255, 255);
 }
 
-/* about section styling */
+/* about section styling and solid shadows */
 #about{
     text-align: left;
     text-shadow: none;
     background-color: rgb(249, 214, 255);
     color:black;
     box-shadow: 0.3em 0.3em rgb(255, 255, 255);
+    font-family:dosis;
 }
 
 #about:hover{
     box-shadow: 0.3em 0.3em rgb(197, 117, 255);
 }
-/* fitting my photo*/
+
+/* fitting my photo with light shadows*/
 img{
     max-height: 30vw;
     max-width: 30vw;
