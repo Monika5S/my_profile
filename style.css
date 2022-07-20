@@ -33,6 +33,10 @@ h1,h2,h3,img{
     border-bottom-left-radius: 2em;
 }
 
+#center{
+    text-align: center;
+}
+
 #welcome h1{
     font-size: 3em;
     /* font-size:4.5vw;  */
@@ -70,7 +74,7 @@ h1:hover{
 
 /* navbar items styling and solid shadows */
 #nav{
-    font-size: 2vw;
+    font-size: 1em;
     font-family: 'Indie Flower';
 }
 
@@ -94,7 +98,7 @@ h1:hover{
 }
 
 /* fitting my photo with light shadows*/
-img{
+img, #location{
     max-height: 30vw;
     max-width: 30vw;
     padding: 0.2em;
@@ -104,15 +108,43 @@ img{
     box-shadow: 0.1em 0.1em 0.1em rgb(200, 168, 255);
 }
 
-.my_img{
+.my_img_profile{
     align-self: flex-start;
-    padding:0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    row-gap: 1em;
 }
 
 img:hover{
     box-shadow: 0 0 1em rgb(200, 168, 255);
 }
 
+#location{
+    font-size: 2.5vw;
+    font-family: 'Edu NSW ACT Foundation';
+    text-shadow: 0.1em 0.1em 0.1em rgb(70, 63, 83);
+    background-color: rgb(151, 248, 234);
+    border-radius: 1em; 
+}
+
+/* for icons */
+i{
+    padding:0.2em;
+    color:black
+}
+
+/* education section */
+#education{
+    text-align: left;
+    text-shadow: none;
+    background-color: rgb(249, 214, 255);
+    color:black;
+    box-shadow: 0.3em 0.3em rgb(255, 255, 255);
+    font-family:dosis;
+}
+
+/* footer */
 footer{
     justify-content: space-around;
     align-items: center;
