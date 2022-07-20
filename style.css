@@ -20,15 +20,7 @@ body{
      */
 }
 
-/* welcome mesage hover effect */
-h1:hover{
-   text-shadow:  0.1em 0.1em rgb(177, 239, 250);
-   box-shadow: 10px 10px rgb(255, 223, 223);
-}
-
-h1,h2,h3{
-    font-size: 3em;
-    /* font-size:4.5vw; */
+h1,h2,h3,img{
     text-shadow: 0 0 0.1em rgb(243, 196, 255);
     border-style: solid;
     border-width: 0.1em;
@@ -38,42 +30,85 @@ h1,h2,h3{
     border-bottom-left-radius: 2em;
 }
 
+#welcome h1{
+    font-size: 3em;
+    /* font-size:4.5vw;  */
+}
+
+/* shadow hover effect */
+h1:hover{
+   text-shadow:  0.1em 0.1em rgb(177, 239, 250);
+   box-shadow: 0.2em 0.2em rgb(255, 223, 223);
+}
+
 /* navbar styling */
-.nav_items
+.outer_box
 {
     width:100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     column-gap: 2%;
-    
 }
 
-.items{
+.border_with_shadow{
     background-color: black;
-    width: 100%;
-    padding: 0.5%;
-    font-size: 2.5vw;
-    font-family: 'Indie Flower', sans-serif;
-    text-shadow: 0 0 0.1em rgb(0, 0, 0);
     border-style: solid;
     border-width: 0.1em;
     padding: 0.5em;
+    border-color: #fff;
     border-top-left-radius: 2em;
     border-top-right-radius: 2em;
     border-bottom-left-radius: 2em;
     border-bottom-right-radius: 2em;
-    box-shadow: 5px 5px rgb(197, 117, 255);
+    box-shadow: 0.3em 0.3em rgb(197, 117, 255);
+}
+
+#nav{
+    font-size: 2vw;
+    font-family: 'Indie Flower';
 }
 
 /* navbar items hover effect */
-.items:hover{
+.border_with_shadow:hover{
     text-shadow:  0.1em -0.1em 0.1em rgb(129, 173, 255);
-    box-shadow: 5px 5px rgb(255, 255, 255);
+    box-shadow: 0.2em 0.2em rgb(255, 255, 255);
+}
+
+/* about section styling */
+#about{
+    text-align: left;
+    text-shadow: none;
+    background-color: rgb(249, 214, 255);
+    color:black;
+    box-shadow: 0.3em 0.3em rgb(255, 255, 255);
+}
+
+#about:hover{
+    box-shadow: 0.3em 0.3em rgb(197, 117, 255);
+}
+/* fitting my photo*/
+img{
+    max-height: 30vw;
+    max-width: 30vw;
+    padding: 0.2em;
+    border-width:0.2em;
+    /* background-color: rgb(15, 77, 77); */
+    background-color: rgba(26, 21, 84, 0.952);
+    box-shadow: 0.1em 0.1em 0.1em rgb(200, 168, 255);
+}
+
+.my_img{
+    align-self: flex-start;
+    padding:0;
+}
+
+img:hover{
+    box-shadow: 0 0 1em rgb(200, 168, 255);
 }
 
 footer{
-    font-family: 'Indie Flower', sans-serif;
+    font-family: 'Indie Flower';
     justify-content: space-around;
     align-items: center;
 }
