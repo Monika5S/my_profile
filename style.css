@@ -26,7 +26,7 @@ body{
      */
 }
 
-h1,h2,h3,img{
+h1,h2,h3,.img_box{
     text-shadow: 0 0 0.1em rgb(243, 196, 255);
     border-style: solid;
     border-width: 0.1em;
@@ -38,6 +38,10 @@ h1,h2,h3,img{
 
 #center{
     text-align: center;
+}
+
+img{
+    width:100%;
 }
 
 #welcome h1{
@@ -98,8 +102,8 @@ h1:hover,h2:hover{
     box-shadow: 0.3em 0.3em rgb(197, 117, 255);
 }
 
-/* fitting my photo with light shadows*/
-img, #location{
+/* fitting image | light shadows*/
+.img_box, .square_box{
     max-height: 30vw;
     max-width: 30vw;
     padding: 0.2em;
@@ -109,7 +113,7 @@ img, #location{
     box-shadow: 0.1em 0.1em 0.1em rgb(200, 168, 255);
 }
 
-.my_img_profile{
+.img_profile{
     align-self: flex-start;
     display: flex;
     flex-direction: column;
@@ -121,13 +125,15 @@ img:hover{
     box-shadow: 0 0 1em rgb(200, 168, 255);
 }
 
-#location{
+.square_box{
     color:black;
     text-shadow: 0.1em 0.1em 0.1em rgba(157, 99, 205, 0.893);
     box-shadow: 0.5em 0.5em whitesmoke; 
     background-color: #c2b3ff;
     max-height: fit-content;
 }
+
+
 
 /* for icons */
 i{
