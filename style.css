@@ -1,178 +1,206 @@
-@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Edu+NSW+ACT+Foundation&family=Indie+Flower&family=Nunito:wght@700&display=swap');
-a{
-    text-decoration: none;
-    color:ghostwhite;
+@import url("https://fonts.googleapis.com/css2?family=Dosis&family=Edu+NSW+ACT+Foundation&family=Indie+Flower&family=Nunito:wght@700&display=swap");
+a {
+  text-decoration: none;
+  color: ghostwhite;
 }
 
-div{
-    width: 100%;
-    text-align: center;
-    margin-bottom: 0.5em;
+div {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 0.5em;
 }
 
-hr{
-    border: 0.1em solid rgb(243, 196, 255);
-    background-color:  rgb(243, 196, 255);
+hr {
+  border: 0.1em solid rgb(243, 196, 255);
+  background-color: rgb(243, 196, 255);
 }
 
-body{
-    background-color: #411874;
-    background-size: cover;
-    font-family: 'Nunito','Indie Flower', sans-serif;
-    font-size: 1.2em;
-    color: #fff;
-    margin: 3% 6%;
-    /* background:linear-gradient(to left, rgba(121, 5, 79, 0.845) 0%, rgb(33, 0, 99) 100%);
+body {
+  background-color: #411874;
+  background-size: cover;
+  font-family: "Nunito", "Indie Flower", sans-serif;
+  font-size: 1.2em;
+  color: #fff;
+  margin: 3% 6%;
+  /* background:linear-gradient(to left, rgba(121, 5, 79, 0.845) 0%, rgb(33, 0, 99) 100%);
      */
 }
 
-h1,h2,h3,.img_box{
-    text-shadow: 0 0 0.1em rgb(243, 196, 255);
-    border-style: solid;
-    border-width: 0.1em;
-    padding: 0.5em;
-    border-top-left-radius: 2em;
-    border-top-right-radius: 2em;
-    border-bottom-left-radius: 2em;
+h1,
+h2,
+h3,
+.img_box {
+  text-shadow: 0 0 0.1em rgb(243, 196, 255);
+  border-style: solid;
+  border-width: 0.1em;
+  padding: 0.5em;
+  border-top-left-radius: 2em;
+  border-top-right-radius: 2em;
+  border-bottom-left-radius: 2em;
 }
 
-#center{
-    text-align: center;
+.center {
+  text-align: center;
 }
 
-img{
-    width:100%;
+img {
+  width: 100%;
 }
 
-#welcome h1{
-    font-size: 3em;
-    /* font-size:4.5vw;  */
+#welcome h1 {
+  font-size: 3em;
+  /* font-size:4.5vw;  */
 }
 
 /* shadow hover effect */
-h1:hover,h2:hover{
-   text-shadow:  0.1em 0.1em rgb(177, 239, 250);
-   box-shadow: 0.2em 0.2em rgb(255, 223, 223);
+h1:hover,
+h2:hover {
+  text-shadow: 0.1em 0.1em rgb(177, 239, 250);
+  box-shadow: 0.2em 0.2em rgb(255, 223, 223);
 }
 
 /* navbar styling */
-.outer_box
-{
-    width:100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    column-gap: 2%;
-    margin-bottom: 1.5em;
+.outer_box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 2%;
+  margin-bottom: 1.5em;
 }
 
 /* boxes with solid color shadows */
-.border_with_shadow{
-    background-color: black;
-    border-style: solid;
-    border-width: 0.1em;
-    padding: 0.5em;
-    border-color: #fff;
-    border-radius: 2em;
-    box-shadow: 0.3em 0.3em rgb(197, 117, 255);
+.border_with_shadow {
+  background-color: black;
+  border-style: solid;
+  border-width: 0.1em;
+  padding: 0.5em;
+  border-color: #fff;
+  border-radius: 2em;
+  box-shadow: 0.3em 0.3em rgb(197, 117, 255);
 }
 
 /* navbar items styling and solid shadows */
-#nav{
-    font-size: 1em;
-    font-family: 'Indie Flower';
+#nav {
+  font-size: 1em;
+  font-family: "Indie Flower";
 }
 
-.border_with_shadow:hover{
-    text-shadow:  0.1em -0.1em 0.1em rgb(129, 173, 255);
-    box-shadow: 0.2em 0.2em rgb(255, 255, 255);
+.border_with_shadow:hover {
+  text-shadow: 0.1em -0.1em 0.1em rgb(129, 173, 255);
+  box-shadow: 0.2em 0.2em rgb(255, 255, 255);
 }
 
 /* about section styling and solid shadows */
-#about{
-    text-align: left;
-    text-shadow: none;
-    background-color: rgb(249, 214, 255);
-    color:black;
-    box-shadow: 0.3em 0.3em rgb(255, 255, 255);
-    font-family:dosis;
+#about {
+  text-align: left;
+  text-shadow: none;
+  background-color: rgb(249, 214, 255);
+  color: black;
+  box-shadow: 0.3em 0.3em rgb(255, 255, 255);
+  font-family: dosis;
 }
 
-#about:hover{
-    box-shadow: 0.3em 0.3em rgb(197, 117, 255);
+#about:hover {
+  box-shadow: 0.3em 0.3em rgb(197, 117, 255);
 }
 
 /* fitting image | light shadows*/
-.img_box, .square_box{
-    max-height: 30vw;
-    max-width: 30vw;
-    padding: 0.2em;
-    border-width:0.2em;
-    /* background-color: rgb(15, 77, 77); */
-    background-color: rgba(26, 21, 84, 0.952);
-    box-shadow: 0.1em 0.1em 0.1em rgb(200, 168, 255);
+.img_box,
+.square_box {
+  max-height: 30vw;
+  max-width: 30vw;
+  padding: 0.2em;
+  border-width: 0.2em;
+  /* background-color: rgb(15, 77, 77); */
+  background-color: rgba(26, 21, 84, 0.952);
+  box-shadow: 0.1em 0.1em 0.1em rgb(200, 168, 255);
 }
 
-.img_profile{
-    align-self: flex-start;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    row-gap: 1.5em;
+.img_profile {
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  row-gap: 1.5em;
 }
 
-img:hover{
-    box-shadow: 0 0 1em rgb(200, 168, 255);
+img:hover {
+  box-shadow: 0 0 1em rgb(200, 168, 255);
 }
 
-.square_box{
-    color:black;
-    text-shadow: 0.1em 0.1em 0.1em rgba(157, 99, 205, 0.893);
-    box-shadow: 0.5em 0.5em whitesmoke; 
-    background-color: #c2b3ff;
-    max-height: fit-content;
+.square_box {
+  color: black;
+  text-shadow: 0.1em 0.1em 0.1em rgba(157, 99, 205, 0.893);
+  box-shadow: 0.5em 0.5em whitesmoke;
+  background-color: #c2b3ff;
+  max-height: fit-content;
 }
-
-
 
 /* for icons */
-i{
-    padding:0.2em;
-    color:black;
+i {
+  padding: 0.2em;
+  color: black;
 }
 
 /* education section */
-#edu{
-    display: flex;
-    column-gap: 2.5em; 
-    align-content: center;
-    justify-content: space-around;
+#edu {
+  display: flex;
+  column-gap: 2.5em;
+  align-content: center;
+  justify-content: space-around;
 }
 
-.education{
-    width:30%;
-    color:black;
-    font-family:dosis;
-    background-color: rgb(255, 211, 234);
-    box-shadow: 0.3em 0.3em rgb(243, 246, 249);
-    padding: 0.5em;
+.education {
+  width: 30%;
+  color: black;
+  font-family: dosis;
+  background-color: rgb(255, 211, 234);
+  box-shadow: 0.3em 0.3em rgb(243, 246, 249);
+  padding: 0.5em;
+  border-radius: 2em;
+}
+
+.education img {
+  width: 50%;
+  border: none;
+  background: none;
+  height: 13vw;
+}
+
+#skills{
+    justify-content: center;
+}
+
+#skills img{
+    width:80%;
     border-radius: 2em;
 }
 
-.education img{
-    width:50%;
-    border:none;
-    background: none;
-    height:13vw;
+.canva_design{
+    width: 100%;
+    height: 35vw;
+    justify-content: center;
+    overflow: hidden;
+    /* will-change: transform; */
 }
 
-footer{
-    justify-content: space-around;
-    align-items: center;
-    font-size: small;
-    text-align: center;
+/* iframe images */
+iframe {
+  width: 50%;
+  height: 100%;
+  border:none;
+  border-radius: 1em;
 }
 
-footer p, footer a{
-    color: rgba(207, 180, 255, 0.845);
+footer {
+  justify-content: space-around;
+  align-items: center;
+  font-size: small;
+  text-align: center;
+}
+
+footer p,
+footer a {
+  color: rgba(207, 180, 255, 0.845);
 }
