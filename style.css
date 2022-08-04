@@ -157,7 +157,7 @@ i {
   width: 30%;
   color: black;
   font-family: dosis;
-  background-color: rgb(255, 211, 234);
+  background-color: #c2b3ff;
   box-shadow: 0.3em 0.3em rgb(243, 246, 249);
   padding: 0.5em;
   border-radius: 2em;
@@ -165,15 +165,16 @@ i {
 
 .education img {
   width: 50%;
+  height: 13vw;
   border: none;
   background: none;
-  height: 13vw;
+  box-shadow: none;
 }
 
 .banner{
   width: 100%;
   display: flex;
-  background-color: #c6f0fe;
+  /* background-color: #c6f0fe; */
   color: rgb(55, 54, 54);
   border-radius: 1em;
   margin-bottom: 3em;
@@ -181,13 +182,19 @@ i {
 
 .banner img{
   width:30%;
+  height:15vw;
   background-color: #fff;
   border-radius: 1em;
+  border: none;
 }
 
 .banner_text{
   width: 70%;
-  padding-left: 1em;
+  padding:0 1em;
+  margin-left:2%;
+  border-radius: 2em;
+  color:ghostwhite;
+  background: linear-gradient(to right,rgb(92, 74, 255),rgb(252, 91, 153));
 }
 
 #skills{
