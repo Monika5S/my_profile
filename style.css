@@ -99,6 +99,7 @@ h2:hover {
   color: black;
   box-shadow: 0.3em 0.3em rgb(255, 255, 255);
   font-family: dosis;
+  margin-bottom: 2em;
 }
 
 #about:hover {
@@ -149,7 +150,8 @@ i {
   column-gap: 2.5em;
   align-content: center;
   justify-content: space-around;
-}
+  margin-bottom: 3em;
+} 
 
 .education {
   width: 30%;
@@ -168,8 +170,29 @@ i {
   height: 13vw;
 }
 
+.banner{
+  width: 100%;
+  display: flex;
+  background-color: #c6f0fe;
+  color: rgb(55, 54, 54);
+  border-radius: 1em;
+  margin-bottom: 3em;
+}
+
+.banner img{
+  width:30%;
+  background-color: #fff;
+  border-radius: 1em;
+}
+
+.banner_text{
+  width: 70%;
+  padding-left: 1em;
+}
+
 #skills{
     justify-content: center;
+    margin-bottom: 3em;
 }
 
 #skills img{

@@ -5,8 +5,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CONTACT</title>
     <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/contact/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body>
-    <p class="center">🧩 This page is Under Construction🛠️  <br> 🪄Thanks for Visiting</p>
-</body>
+    <body>
+        <div class="outer_box" id="nav">
+            <div class="border_with_shadow">
+                <a href="/">🏡</a>
+            </div>
+            <div class="border_with_shadow">
+                <a href="/prj">PROJECTS</a>
+            </div> 
+            <div class="border_with_shadow">
+                <a href="/contact">CONTACT</a>
+            </div>
+        </div>
+        
+        <h2>📨 Contact Me</h2>  
+        <div class="main">
+            <div class="col-1">
+                <div>
+                    <h3>📫 Send me an Email!</h3>
+                </div>
+
+                <p>Hey! 👋 Wanna say hi? 
+                    Feel free to send me a message on my socials, 
+                    or fill the form below!
+                </p><br>
+
+                <form action="/contact/contact.php" method="post">
+                    <p><mark>What's your first name?</mark></p>
+                    <input type="text" name="name" id="name" placeholder="Monika">
+                    
+                    <p><mark>What's your email address?</mark></p>
+                    <input type="text" name="email" id="email" placeholder="abc@gmail.com">
+                    
+                    <p><mark>What's your message?</mark></p>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message"></textarea>
+                    
+                    <br><button type="submit" name="submit">Send</button>
+                </form>
+            </div>
+
+            <div class="col-2">
+                <h2>🌟 Socials</h2>
+          
+                <div class="square_box">
+                    <a href="mailto:monika15.student@gmail.com"><i class="fa fa-envelope-o fa-2x"></i> <b> Email</b></a>
+                </div><br>
+    
+                <div class="square_box">
+                    <a href="https://github.com/Monika5S"><i class="fa fa-github fa-2x"></i> GitHub</a> 
+                </div><br>
+                
+                <div class="square_box">
+                    <a href="https://www.linkedin.com/in/monika-singh-a6a1141a5"><i class="fa fa-linkedin fa-2x"></i> LinkedIn</a>
+                </div><br>
+    
+                <div class="square_box">
+                    <a href="https://www.instagram.com/travelz_mon/"><i class="fa fa-instagram fa-2x"></i> Instagram</a>
+                </div>
+            </div>
+        </div>
+        
+    </body>
 </html>

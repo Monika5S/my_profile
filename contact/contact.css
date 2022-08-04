@@ -1,0 +1,60 @@
+.main{
+    width: 100%;
+    display: flex;
+    align-content: flex-start;
+    justify-content: space-around;
+}
+
+input, textarea{
+    width:90%;
+    padding: 1em;
+    border-radius: 2em;
+    border-width: 1px;
+    margin-bottom: 1em;
+}
+
+/* for highlighting text */
+mark{ 
+    background-color: #c2b3ff97;
+    padding:2%;
+}
+
+h3{
+    text-align: left;
+    text-shadow: none;
+    background-color: #c2b3ff;
+    color:ghostwhite;
+    font-size: x-large;
+    border-radius: 2em;
+    padding: 1em;
+    margin:0;
+    /* background-color: #ccf2fdc2; */
+    /* background-color: #a2eefcf6; */
+}
+
+button{
+    border:none;
+    background-color: #c2b3ff;
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+    padding: 1em;
+    border-radius: 2em;
+    cursor: pointer;
+}
+
+.col-1{
+    width: 60%;
+    text-align: left;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 3%;
+    border-radius: 2em;
+    box-shadow: 0px 0px 10px 0px rgba(46, 46, 46, 0.75);
+    margin:2%;
+}
+
+.col-2{
+    width:30%;
+    margin-left: 2%;
+}
