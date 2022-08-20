@@ -1,81 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MY CONTACT</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <style>
-        @import url("./style.css");
-        @import url("./contact.css");
+      @import url("./style.css");
+      @import url("./contact.css");
     </style>
-</head>
-    <body>
-        <div id="welcome">
-            <h1>Hey, I'm Monika! 👋</h1>
+  </head>
+  <body>
+    <div id="welcome">
+      <h1>Hey, I'm Monika! 👋</h1>
+    </div>
+
+    <div class="outer_box" id="nav">
+      <div class="border_with_shadow">
+        <a href="./index.html">🏡 Home</a>
+      </div>
+      <div class="border_with_shadow">
+        <a href="./index.html#edu">EDUCATION</a>
+      </div>
+      <div class="border_with_shadow">
+        <a href="./index.html#prj">PROJECTS</a>
+      </div>
+      <div class="border_with_shadow">
+        <a href="#">CONTACT</a>
+      </div>
+    </div>
+
+    <h2>📨 Contact Me</h2>
+    <div class="main">
+      <div class="col-1">
+        <div>
+          <h3>📫 Send me an Email!</h3>
         </div>
 
-        <div class="outer_box" id="nav">
-            <div class="border_with_shadow">
-                <a href="./index.html">🏡 Home</a>
-            </div>
-            <div class="border_with_shadow">
-                <a href="./index.html#edu">EDUCATION</a>
-            </div> 
-            <div class="border_with_shadow">
-                <a href="./index.html#prj">PROJECTS</a>
-            </div> 
-            <div class="border_with_shadow">
-                <a href="#">CONTACT</a>
-            </div>
+        <p>
+          Hey! 👋 Wanna say hi? Feel free to send me a message on my socials, or
+          fill the form below!
+        </p>
+        <br />
+
+        <form action="/contact/contact.php" method="post">
+          <p><mark>What's your first name?</mark></p>
+          <input type="text" name="name" id="name" placeholder="Monika" />
+
+          <p><mark>What's your email address?</mark></p>
+          <input
+            type="text"
+            name="email"
+            id="email"
+            placeholder="abc@gmail.com"
+          />
+
+          <p><mark>What's your message?</mark></p>
+          <textarea
+            name="message"
+            id="message"
+            cols="30"
+            rows="10"
+            placeholder="Your message"
+          ></textarea>
+
+          <br /><button type="submit" name="submit">Send</button>
+        </form>
+      </div>
+
+      <div class="col-2">
+        <h2>🌟 Socials</h2>
+
+        <div class="square_box">
+          <a href="mailto:monika15.student@gmail.com"
+            ><i class="fa fa-envelope-o fa-2x"></i> <b> Email</b></a
+          >
         </div>
-        
-        <h2>📨 Contact Me</h2>  
-        <div class="main">
-            <div class="col-1">
-                <div>
-                    <h3>📫 Send me an Email!</h3>
-                </div>
+        <br />
 
-                <p>Hey! 👋 Wanna say hi? 
-                    Feel free to send me a message on my socials, 
-                    or fill the form below!
-                </p><br>
-
-                <form action="/contact/contact.php" method="post">
-                    <p><mark>What's your first name?</mark></p>
-                    <input type="text" name="name" id="name" placeholder="Monika">
-                    
-                    <p><mark>What's your email address?</mark></p>
-                    <input type="text" name="email" id="email" placeholder="abc@gmail.com">
-                    
-                    <p><mark>What's your message?</mark></p>
-                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message"></textarea>
-                    
-                    <br><button type="submit" name="submit">Send</button>
-                </form>
-            </div>
-
-            <div class="col-2">
-                <h2>🌟 Socials</h2>
-          
-                <div class="square_box">
-                    <a href="mailto:monika15.student@gmail.com"><i class="fa fa-envelope-o fa-2x"></i> <b> Email</b></a>
-                </div><br>
-    
-                <div class="square_box">
-                    <a href="https://github.com/Monika5S"><i class="fa fa-github fa-2x"></i> GitHub</a> 
-                </div><br>
-                
-                <div class="square_box">
-                    <a href="https://www.linkedin.com/in/monika-singh-a6a1141a5"><i class="fa fa-linkedin fa-2x"></i> LinkedIn</a>
-                </div><br>
-    
-                <div class="square_box">
-                    <a href="https://www.instagram.com/travelz_mon/"><i class="fa fa-instagram fa-2x"></i> Instagram</a>
-                </div>
-            </div>
+        <div class="square_box">
+          <a href="https://github.com/Monika5S"
+            ><i class="fa fa-github fa-2x"></i> GitHub</a
+          >
         </div>
-        
-    </body>
+        <br />
+
+        <div class="square_box">
+          <a href="https://www.linkedin.com/in/monika-singh-a6a1141a5"
+            ><i class="fa fa-linkedin fa-2x"></i> LinkedIn</a
+          >
+        </div>
+        <br />
+
+        <div class="square_box">
+          <a href="https://www.instagram.com/travelz_mon/"
+            ><i class="fa fa-instagram fa-2x"></i> Instagram</a
+          >
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
