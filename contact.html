@@ -48,7 +48,13 @@
 
         <form action="/contact/contact.php" method="post">
           <p><mark>What's your first name?</mark></p>
-          <input type="text" name="name" id="name" placeholder="Monika" />
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Monika"
+            required
+          />
 
           <p><mark>What's your email address?</mark></p>
           <input
@@ -56,6 +62,7 @@
             name="email"
             id="email"
             placeholder="abc@gmail.com"
+            required
           />
 
           <p><mark>What's your message?</mark></p>
@@ -65,6 +72,7 @@
             cols="30"
             rows="10"
             placeholder="Your message"
+            required
           ></textarea>
 
           <br /><button type="submit" name="submit">Send</button>
@@ -102,5 +110,18 @@
         </div>
       </div>
     </div>
+
+    <script>
+      alert(
+        "Thanks for visiting 👀. \n 📱 you can contact me on my socials! \n 🚧 Contact form is under development! 🚧 "
+      );
+
+      function message() {
+        alert("Thanks for Contacting Me! I'll get back to you soon!");
+      }
+
+      let button = document.querySelector("button");
+      button.addEventListener("click", message);
+    </script>
   </body>
 </html>
